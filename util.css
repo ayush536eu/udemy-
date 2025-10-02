@@ -1,0 +1,42 @@
+a {
+  display: inline-block;
+  text-decoration: none;
+  font-size: 1.5rem;
+  color: black;
+}
+
+h1 {
+  font-size: 2.5rem;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+h3 {
+  font-size: 1.5rem;
+}
+
+.container {
+  max-width: 85vw;
+  width: 90%;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.items-img {
+  position: relative;
+  border: 0.5px solid #bbbdc0;
+}
+
+.items-img::after {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  background-color: #0002;
+}

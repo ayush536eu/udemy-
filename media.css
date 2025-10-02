@@ -1,0 +1,94 @@
+@media (max-width: 1200px) {
+  /* ####### header styling #########3 */
+  .navbar .hamburger,
+  .navbar .search-icon {
+    padding: 1rem;
+    display: block;
+  }
+
+  .navbar .search-icon {
+    position: absolute;
+    right: 2rem;
+  }
+
+  .navbar .cart {
+    position: absolute;
+    right: 6rem;
+  }
+
+  .navbar .logo {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  .navbar .search-box,
+  .navbar .category,
+  .navbar .udemy-business,
+  .navbar .udemy-tech,
+  .navbar .log-in,
+  .navbar .sing-up,
+  .navbar .lang {
+    display: none;
+  }
+
+  /* ######### slider styling ########## */
+
+  #slider .container {
+    min-width: 100vw;
+    height: 50vh;
+  }
+
+  #slider .slider-content h3 {
+    font-size: 2rem;
+  }
+
+  /* ############### course content ############ */
+
+  .course-content {
+    display: grid;
+    /* grid-template-columns: repeat(3, 1fr); */
+    grid-template-columns: repeat(auto-fill, 50%);
+  }
+
+  /* ########## student section ############ */
+
+  .student-choice .student-choice-wrapper {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 50%);
+  }
+
+  .student-choice-wrapper .student-course-items {
+    padding: 0;
+    width: 100%;
+    margin: 1rem;
+    padding-right: 1rem;
+    cursor: pointer;
+  }
+
+  /* ########### udemy assets ################# */
+
+  .udemy-assets .assets-items {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    text-align: center;
+  }
+
+  .assets-items .assets-img {
+    width: 100%;
+  }
+
+  .assets-items img {
+    width: 50%;
+  }
+  .udemy-assets-2 .assets-items-2 {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .assets-content img {
+    width: 40%;
+    margin: 1rem 0;
+  }
+}
